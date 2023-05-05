@@ -12,14 +12,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-@p8o0rqvr9)2c*+_e)!yznfisdzrjeeu@8acuw5%4zez8fr=sj"
-#SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['django-env.eba-z8deq9gc.us-west-2.elasticbeanstalk.com',
-                 'django-new-env.eba-z8deq9gc.us-west-2.elasticbeanstalk.com', 
-                 'test-env.eba-inhcvpka.us-west-2.elasticbeanstalk.com']
+                 'django-new-env.eba-z8deq9gc.us-west-2.elasticbeanstalk.com',
+                 'test-env.eba-inhcvpka.us-west-2.elasticbeanstalk.com', 
+                 'test-env-1.eba-inhcvpka.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
