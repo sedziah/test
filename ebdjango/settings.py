@@ -21,7 +21,8 @@ ALLOWED_HOSTS = ['django-env.eba-z8deq9gc.us-west-2.elasticbeanstalk.com',
                  'django-new-env.eba-z8deq9gc.us-west-2.elasticbeanstalk.com',
                  'test-env.eba-inhcvpka.us-west-2.elasticbeanstalk.com', 
                  'test-env-1.eba-inhcvpka.us-west-2.elasticbeanstalk.com',
-                 '127.0.0.1']
+                 '127.0.0.1',
+                 'new-test-env.eba-bv898hgj.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
